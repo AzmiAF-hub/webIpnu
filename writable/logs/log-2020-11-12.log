@@ -1,0 +1,77 @@
+CRITICAL - 2020-11-12 13:24:07 --> Unable to connect to the database.
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\webIpnu\app\Controllers\Home.php(15): CodeIgniter\Model->findAll()
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('G:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-12 13:25:34 --> Unable to connect to the database.
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\webIpnu\app\Controllers\Home.php(15): CodeIgniter\Model->findAll()
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('G:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-12 13:25:44 --> Unable to connect to the database.
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\webIpnu\app\Controllers\Home.php(15): CodeIgniter\Model->findAll()
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('G:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-12 13:59:14 --> Undefined index: seed
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Help.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\webIpnu\\vend...', 116, Array)
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Help->run(Array)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('help', Array)
+#3 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'help', 'seed')
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-11-12 13:59:34 --> Undefined index: seed
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Help.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\webIpnu\\vend...', 116, Array)
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Help->run(Array)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('help', Array)
+#3 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'help', 'seed')
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-11-12 13:59:45 --> Undefined index: seed
+#0 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Help.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\webIpnu\\vend...', 116, Array)
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Help->run(Array)
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('help', Array)
+#3 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'help', 'seed')
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-11-12 14:50:09 --> Undefined index: name
+#0 G:\webIpnu\app\Views\page\register.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'G:\\webIpnu\\app\\...', 51, Array)
+#1 G:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('G:\\webIpnu\\app\\...')
+#2 G:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/register', Array, true)
+#3 G:\webIpnu\app\Controllers\Home.php(18): view('page/register', Array)
+#4 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 G:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('G:\\webIpnu\\publ...')
+#9 {main}

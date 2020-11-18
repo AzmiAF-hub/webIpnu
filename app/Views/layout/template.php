@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url("Mentor/assets/img/favicon.png") ?>" rel="icon">
+  <link href="<?= base_url("/img/icon.ico") ?>" rel="icon">
   <link href="<?= base_url() ?>/Mentor/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -40,9 +40,14 @@
     
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
+    
     <div class="container d-flex align-items-center">
 
-      <h4 class="logo mr-auto"><a href="/">IPNU IPPNU MASA</a></h4>
+      <h4 class="logo mr-auto">
+        <img src="<?= base_url("/img/ipnu.png") ?>" alt="IPNU" class="logo">
+        <a href="/">IPNU IPPNU MASA</a>
+        <img src="<?= base_url("/img/ippnu.png") ?>" alt="IPNU" class="logo">
+      </h4>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -101,7 +106,6 @@
               Indonesia<br><br>
               <strong>Facebook:</strong> Azmi AF<br>
               <strong>Email:</strong> azq085608@gmail.com<br>
-              <strong>Github:</strong> <a href="https://github.com/AzmiAF-hub">https://github.com/AzmiAF-hub</a><br>
             </p>
           </div>
 
@@ -143,7 +147,7 @@
 
       <div class="mr-md-auto text-center text-md-left">
         <div class="copyright">
-          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>AF Program & Desaign</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -154,11 +158,11 @@
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <!-- <a href="#" class="google"><i class="bx bxl-google"></i></a> -->
+        <a href="https://www.facebook.com/assvi.annisa.9" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://github.com/AzmiAF-hub" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.youtube.com/channel/UChf1r_EgSbz4UgkNQ4LT4_g" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -175,6 +179,7 @@
 
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>/Mentor/assets/js/main.js"></script>
+  <script src="<?= base_url() ?>/assets/js/main.js"></script>
 
 </body>
 

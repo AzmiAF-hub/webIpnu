@@ -7,7 +7,7 @@
 <div class="breadcrumbs" data-aos="fade-in">
   <div class="container">
     <h2>Masuk Akun</h2>
-    <p>Silahkan masukkan Username / E-mail dan Password dengan benar !!!</p>
+    <p>Silahkan masukkan Username dan Password dengan benar !!!</p>
   </div>
 </div>
 
@@ -19,15 +19,18 @@
 
       <div class="mt-5 mt-lg-0 col-8">
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form id="formSignIn" class="php-email-form">
           
           <div class="form-group">
-            <input type="text" class="form-control" name="username" id="subject" placeholder="Username / E-mail"/>
+            <input type="text" class="form-control" name="username" id="username" placeholder="Username"/>
           </div>
             <div class="form-group">
               <input type="password" name="password" class="form-control" id="password" placeholder="Password"/>
             </div>
-          <div class="text-center"><button type="submit">Mendaftar</button></div>
+          <div class="text-center">
+            <button type="submit" id="signIn">Masuk</button>
+          </div>
+          
         </form>
 
       </div>

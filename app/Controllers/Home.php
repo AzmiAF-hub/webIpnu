@@ -9,10 +9,14 @@ class Home extends BaseController
 	
 	public function register()
 	{
-		$model = new \App\Models\Jabatan();
+		$model = [
+			'jabatan' => new \App\Models\Jabatan(),
+			'periode' => new \App\Models\Periode()
+		];
 
 		$data = [
-			"jabatan" => $model->findAll()
+			"jabatan" => $model['jabatan']->findAll(),
+			"periode" => $model['periode']->findAll()
 		];
 
 		echo view('page/register', $data);

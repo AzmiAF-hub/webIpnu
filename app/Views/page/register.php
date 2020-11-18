@@ -7,7 +7,7 @@
 <div class="breadcrumbs" data-aos="fade-in">
   <div class="container">
     <h2>Daftar Akun</h2>
-    <p>Pendaftaran hanya untuk anggota yang bersangkutan !!!</p>
+    <h6 id="msg">Pendaftaran hanya untuk anggota yang bersangkutan !!!</h6>
   </div>
 </div>
 
@@ -19,40 +19,53 @@
 
       <div class="mt-5 mt-lg-0 col-8">
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form id="formSignUp" class="php-email-form">
 
-            <div class="form-row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name1" class="form-control" id="name1" placeholder="Nama Depan" data-rule="minlen:4" data-msg="Masukkan minimal 4 karakter." autocomplete="off" required/>
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" name="name2" class="form-control" id="name2" placeholder="Nama Belakang" data-rule="minlen:4" data-msg="Masukkan minimal 4 karakter." autocomplete="off" />
-              </div>
+            <div class="form-group">
+              <input type="text" name="nama1" class="form-control" id="nama1" placeholder="Nama Panggilan" autocomplete="off" required/>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="username" id="subject" placeholder="Username" data-rule="minlen:4" data-msg="Masukkan minimal 4 karakter." autocomplete="off" required/>
+              <input type="text" name="nama2" class="form-control" id="nama2" placeholder="Nama Lengkap" autocomplete="off" required/>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="email" id="subject" placeholder="E-mail" data-rule="email" data-msg="Masukkan email dengan benar" autocomplete="off" />
+              <input type="text" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off" required/>
             </div>
             <div class="form-row">
               <div class="col-md-6 form-group">
-                <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-rule="minlen:8" data-msg="Masukkan minimal 8 karakter." required/>
+                <input type="password" name="password1" class="form-control" id="password1" placeholder="Password" required/>
               </div>
               <div class="col-md-6 form-group">
-                <input type="password" name="password2" class="form-control" id="password2" placeholder="Konfirmasi Password" data-rule="minlen:8" data-msg="Masukkan minimal 8 karakter." required/>
+                <input type="password" name="password2" class="form-control" id="password2" placeholder="Konfirmasi Password"/>
               </div>
             </div>
             <div class="form-group">
               <select class="custom-select" name="jabatan" id="jabatan">
                 <option selected>Pilih Jabatan</option>
-                <?php $i = 0; ?>
                 <?php foreach ($jabatan as $j) : ?>
-                <option value="<?= $i++; ?>"><?= $j["name"]; ?></option>
+                <?php if ($j['id'] > 1) : ?>
+                <option value="<?= $j["id"]; ?>"><?= $j["nama"]; ?></option>
+                <?php endif; ?>
                 <?php endforeach; ?>
               </select>
             </div>
-            <div class="text-center"><button type="submit">Mendaftar</button></div>
+            <div class="form-group">
+              <select class="custom-select" name="lembaga" id="lembaga">
+                <option selected>Pilih Lembaga</option>
+                <option value="IPNU">IPNU</option>
+                <option value="IPPNU">IPPNU</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="custom-select" name="periode" id="periode">
+                <option selected>Pilih Periode</option>
+                <?php foreach ($periode as $p) : ?>
+                <option value="<?= $p['id']; ?>"><?= $p["tahun"]; ?></option>
+                <?php endforeach; ?>
+              </select>
+            </div>
+            <div class="text-center">
+              <button type="submit" id="signUp">Mendaftar</button>
+            </div>
           </form>
 
       </div>

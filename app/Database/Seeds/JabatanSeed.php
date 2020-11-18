@@ -5,26 +5,25 @@ class JabatanSeed extends \CodeIgniter\Database\Seeder
         public function run()
         {
                 $data = [
-                    // [
-                        // 'name' => 'Dep. Pendidikan',
-                        // 'id_auth'    => '4'
-                    // ],
-                    // [
-                        // 'name' => 'Dep. Olahraga',
-                        // 'id_auth'    => '4'
-                    // ],
-                    // [
-                        // 'name' => 'Dep. Kesehatan',
-                        // 'id_auth'    => '4'
-                    // ],
-                    // [
-                        // 'name' => 'Dep. Humasy',
-                        // 'id_auth'    => '4'
-                    // ],
-                    // [
-                        // 'name' => 'Dep. Kebersihan',
-                        // 'id_auth'    => '4'
-                    // ]
+                    [
+                        'nama' => 'Admin'
+                    ], [
+                        'nama' => 'Ketua / Wakil Ketua'
+                    ], [
+                        'nama' => 'Sekretaris / Wakil Sekretaris'
+                    ], [
+                        'nama' => 'Bendahara / Wakil Bendahara'
+                    ],[
+                        'nama' => 'Dep. Pendidikan'
+                    ],[
+                        'nama' => 'Dep. Perawatan'
+                    ],[
+                        'nama' => 'Dep. Olahraga'
+                    ],[
+                        'nama' => 'Dep. Keorganisasian'
+                    ],[
+                        'nama' => 'Dep. Keterampilan'
+                    ]
                 ];
 
                 // Simple Queries
@@ -33,6 +32,8 @@ class JabatanSeed extends \CodeIgniter\Database\Seeder
                 // );
 
                 // Using Query Builder
-                // $this->db->table('jabatan')->insert($data);
+                foreach($data as $val){
+                    $this->db->table('jabatan')->insert($val);
+                }
         }
 }

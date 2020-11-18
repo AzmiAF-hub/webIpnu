@@ -1,0 +1,177 @@
+CRITICAL - 2020-11-18 12:08:33 --> Creating default object from empty value
+#0 E:\webIpnu\app\Controllers\Apis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'E:\\webIpnu\\app\\...', 17, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:09:02 --> Creating default object from empty value
+#0 E:\webIpnu\app\Controllers\Apis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'E:\\webIpnu\\app\\...', 17, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:11:14 --> Creating default object from empty value
+#0 E:\webIpnu\app\Controllers\Apis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'E:\\webIpnu\\app\\...', 17, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:11:19 --> Creating default object from empty value
+#0 E:\webIpnu\app\Controllers\Apis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'E:\\webIpnu\\app\\...', 17, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:11:37 --> Undefined variable: regModel
+#0 E:\webIpnu\app\Controllers\Apis.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 18, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:13:31 --> Undefined variable: accounting
+#0 E:\webIpnu\app\Controllers\Apis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 20, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:15:13 --> Undefined variable: accounting
+#0 E:\webIpnu\app\Controllers\Apis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 20, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:15:28 --> Undefined variable: accounting
+#0 E:\webIpnu\app\Controllers\Apis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 20, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:16:03 --> Undefined variable: accounting
+#0 E:\webIpnu\app\Controllers\Apis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 20, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:16:57 --> Allowed fields must be specified for model: App\Models\Accounting
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Acco...')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 E:\webIpnu\app\Controllers\Apis.php(21): CodeIgniter\Model->insert(Array)
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-18 12:21:50 --> Undefined variable: pendaftar
+#0 E:\webIpnu\app\Controllers\Apis.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 19, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:28:53 --> Undefined variable: id
+#0 E:\webIpnu\app\Views\page\register.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 45, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\webIpnu\\app\\...')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/register', Array, true)
+#3 E:\webIpnu\app\Controllers\Home.php(22): view('page/register', Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-18 12:29:08 --> Array to string conversion
+#0 E:\webIpnu\app\Views\page\register.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 45, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\webIpnu\\app\\...')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/register', Array, true)
+#3 E:\webIpnu\app\Controllers\Home.php(22): view('page/register', Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-18 12:38:47 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'E:\\webIpnu\\app\\...', 24, Array)
+#1 E:\webIpnu\app\Controllers\Apis.php(24): password_hash('as')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#7 {main}
+CRITICAL - 2020-11-18 12:54:36 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-18 12:55:00 --> Class 'App\Models\Account' not found
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-18 12:55:19 --> Object of class App\Models\Account could not be converted to string
+#0 E:\webIpnu\app\Controllers\Apis.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'E:\\webIpnu\\app\\...', 33, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 12:59:02 --> Array to string conversion
+#0 E:\webIpnu\app\Controllers\Apis.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 34, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 13:00:27 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Apis/login')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Apis/login')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-18 13:02:48 --> Class 'boolean' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-18 13:04:12 --> Cannot access protected property App\Models\Account::$primaryKey
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-18 13:14:46 --> syntax error, unexpected '}', expecting ';'
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Apis/login')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Apis/login')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}

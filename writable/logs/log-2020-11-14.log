@@ -1,0 +1,138 @@
+CRITICAL - 2020-11-14 11:36:49 --> Unable to connect to the database.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\webIpnu\app\Controllers\Home.php(15): CodeIgniter\Model->findAll()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-14 12:59:17 --> Undefined property: App\Controllers\Operate::$get
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:02:36 --> Call to undefined function App\Controllers\getPost()
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-14 13:03:16 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:03:24 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:03:28 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:04:05 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:05:11 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:05:40 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Operate.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 7, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Operate->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operate))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:10:57 --> Undefined variable: request
+#0 E:\webIpnu\app\Controllers\Apis.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 11, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:30:00 --> Array to string conversion
+#0 E:\webIpnu\app\Controllers\Apis.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 16, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:30:13 --> Array to string conversion
+#0 E:\webIpnu\app\Controllers\Apis.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 16, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->register()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-14 13:56:36 --> Class 'App\Database\Seeds\PeriodeSeed' not found
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(124): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'PeriodeSeed')
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-11-14 13:58:36 --> Undefined index: tahun
+#0 E:\webIpnu\app\Views\page\register.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 64, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\webIpnu\\app\\...')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/register', Array, true)
+#3 E:\webIpnu\app\Controllers\Home.php(19): view('page/register', Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-14 13:59:19 --> Undefined index: tahun
+#0 E:\webIpnu\app\Views\page\register.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 64, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\webIpnu\\app\\...')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('page/register', Array, true)
+#3 E:\webIpnu\app\Controllers\Home.php(19): view('page/register', Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-14 14:02:26 --> Class 'App\Models\Periode' not found
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->register()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
