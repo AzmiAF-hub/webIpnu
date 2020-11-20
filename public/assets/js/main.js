@@ -27,11 +27,16 @@ $("#signUp").on('click', function(){
 $('#signIn').on('click', function(){
     $.ajax({
         'url': base + "/Apis/login",
-        'dataType': "JSON",
-        'type': "POST",
+        // 'dataType': "JSON",
+        'type': "GET",
         'data': $("#formSignIn").serialize(),
-        success: function(data){
-            alert(data);
+        success: function(res){
+            if(res.length > 5){
+                $('#msg').text(res)
+            } else {
+                $('#msg').text("")
+                document.location.href = res
+            }
         }
     })
 })

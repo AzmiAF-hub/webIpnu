@@ -1,0 +1,354 @@
+CRITICAL - 2020-11-20 10:50:42 --> Unable to connect to the database.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Model->find('AFProgram')
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-20 10:50:46 --> Unable to connect to the database.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Model->find('AFProgram')
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-20 10:50:50 --> Unable to connect to the database.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Model->find('AFProgram')
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-20 10:52:15 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 10:52:27 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 10:53:14 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 10:56:23 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 10:56:26 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:01:22 --> Undefined index: username
+#0 E:\webIpnu\app\Controllers\Apis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\webIpnu\\app\\...', 35, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:24:27 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:27:31 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:28:00 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:28:28 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:28:31 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:28:32 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('/index')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:29:12 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('http://localhos...')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:30:02 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('http://localhos...')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:31:21 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('http://localhos...')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:31:23 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\app\Controllers\Apis.php(42): redirect('http://localhos...')
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
+CRITICAL - 2020-11-20 11:32:54 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\app\Controllers\Apis.php(42): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#7 {main}
+CRITICAL - 2020-11-20 11:33:24 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\app\Controllers\Apis.php(42): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#7 {main}
+CRITICAL - 2020-11-20 11:35:01 -->  route cannot be found while reverse-routing.
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\webIpnu\app\Controllers\Apis.php(42): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#7 {main}
+CRITICAL - 2020-11-20 11:47:58 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 27, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:48:15 --> Undefined property: App\Controllers\Apis::$session
+#0 E:\webIpnu\app\Controllers\Apis.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 38, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Apis->login()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apis))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:49:22 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 27, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:49:38 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 30, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:49:40 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 30, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:50:08 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 30, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:51:23 --> Class 'App\Controllers\App\Controllers\Config' not found
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-20 11:51:33 --> Undefined property: App\Controllers\View::$Config
+#0 E:\webIpnu\app\Controllers\View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 31, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:54:21 --> Undefined property: App\Controllers\View::$session
+#0 E:\webIpnu\app\Controllers\View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 31, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:54:39 --> Undefined property: App\Controllers\View::$session
+#0 E:\webIpnu\app\Controllers\View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\webIpnu\\app\\...', 31, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:54:53 --> Array to string conversion
+#0 E:\webIpnu\app\Controllers\View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 31, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 11:54:55 --> Array to string conversion
+#0 E:\webIpnu\app\Controllers\View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\webIpnu\\app\\...', 31, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 12:17:47 --> Call to undefined method App\Controllers\View::redirect()
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-20 12:18:25 --> Call to undefined method App\Controllers\View::to()
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#5 {main}
+CRITICAL - 2020-11-20 12:21:40 --> Undefined variable: redirect
+#0 E:\webIpnu\app\Controllers\View.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 39, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 12:21:54 --> Undefined variable: redirect
+#0 E:\webIpnu\app\Controllers\View.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\webIpnu\\app\\...', 39, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#6 {main}
+CRITICAL - 2020-11-20 13:22:35 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 E:\webIpnu\app\Views\signed\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\webIpnu\\app\\...', 24, Array)
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\webIpnu\\app\\...')
+#2 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('signed/dashboar...', Array, true)
+#3 E:\webIpnu\app\Controllers\View.php(43): view('signed/dashboar...', Array)
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#6 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#9 {main}
+CRITICAL - 2020-11-20 13:27:20 --> Call to a member function length() on array
+#0 E:\webIpnu\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\webIpnu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('signed/dashboar...', Array, true)
+#2 E:\webIpnu\app\Controllers\View.php(43): view('signed/dashboar...', Array)
+#3 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\View->home()
+#4 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+#5 E:\webIpnu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\webIpnu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\webIpnu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\webIpnu\\publ...')
+#8 {main}
